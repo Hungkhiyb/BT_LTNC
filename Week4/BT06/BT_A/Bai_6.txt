@@ -1,0 +1,1 @@
+Khi tạo mảng 10000 phần tử trong đệ quy thì bị lỗi tràn bộ nhớ sau 60 lần đệ quy.

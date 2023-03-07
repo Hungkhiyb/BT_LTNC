@@ -1,0 +1,2 @@
+Thời gian chạy đệ quy với n = 45: 6.807s
+Thời gian chạy vòng lặp với n = 45: 0.03s
