@@ -1,0 +1,1 @@
+Địa chỉ của biến đầu tiên được khởi tạo trong struct chính là địa chỉ của biến struct.
