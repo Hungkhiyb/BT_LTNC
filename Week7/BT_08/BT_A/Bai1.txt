@@ -1,0 +1,5 @@
+- Hai biễn đều có cùng địa chỉ
+- VÌ hàm g khi nó được gọi (đều bắt đầu trên đỉnh stack của hàm main),
+cả hai hàm f và g cùng có 1 tham số kiểu int, cùng kiểu trả về,
+x và y cùng là biến địa phương đầu tiên của hàm,
+do đó khả năng lớn là trình biên dịch xếp x và y ở cùng một địa chỉ.

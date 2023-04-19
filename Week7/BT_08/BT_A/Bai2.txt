@@ -1,0 +1,35 @@
+b) 
+#include <iostream>
+
+using namespace std;
+
+int main( )
+{
+   int a[4] = {1, 2, 3, 4};
+   int* p = a;
+   p += 4;
+   *p = NULL;
+   for (int *cp = a; (*cp) != NULL; cp++) {
+      cout << (void*) cp << " : " << (*cp) << endl;
+   }
+   return 0;
+}
+
+c)
+#include <iostream>
+
+using namespace std;
+
+int main( )
+{
+   double a[4] = {1, 2, 3, 4};
+   double* p = a;
+   p += 4;
+   *p = NULL;
+   for (double *cp = a; (*cp) != NULL; cp++) {
+      cout << (void*) cp << " : " << (*cp) << endl;
+   }
+   return 0;
+}
+
+d) Con trỏ cp += 2 trỏ đến địa chỉ biến double thứ hai sau biến double mà con trỏ cp trỏ tới.  
